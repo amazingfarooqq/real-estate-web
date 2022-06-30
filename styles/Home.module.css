@@ -1,0 +1,100 @@
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* SECTION 1 */
+
+.desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionOne h2 {
+  font-size: 70px;
+}
+
+.sectionOne img {
+  width: 400px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border: 3px solid transparent;
+  outline: 4px solid rgba(0, 0, 0, 0.608);
+  height: 600px;
+}
+
+.sectionOne .details {
+  margin-top: -80px;
+  
+}
+
+@media only screen and (max-width: 995px) {
+  .sectionOne .details {
+      margin-top: 0px;
+  }  
+}
+
+.sectionOne .details .stuff {
+  border-radius: 5px;
+  /* color: white;
+  background-color: rgb(221, 99, 0); */
+  /* background: linear-gradient(135deg,rgb(216, 59, 2) 0%,rgb(190, 146, 0) 50%,rgb(216, 59, 2) 100%); */
+}
+
+
+/* SECTION 2 */
+
+.sectionTwo h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.icon-styles {
+  font-size: 90px;
+}
+
+
+/* SECTION 3 */
+
+.sectionThree h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+/* SECTION 4 */
+
+.sectionFour h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.sectionFour .box {
+  background-color: rgb(255, 101, 45);
+}
+
+.sectionFour .view div {
+  border-radius: 40px;
+}
+
+
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+

@@ -1,0 +1,38 @@
+.addingpropertyform {
+    max-width: 450px;
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    z-index: 11111;
+    right: 0;
+    overflow-y: auto;
+    transition: 0.5s;
+}
+
+.layer {
+    height: 100vh;
+    width: 100vw;
+    z-index: 1111;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.482);
+    transition: 1s;
+
+}
+
+.animationOnLayer {
+    left: 100vw;
+    /* transform: translateX(500px); */
+}
+
+.animationOnForm {
+    transform: translateX(500px);
+}
+
+  
+.inputForForm{
+    /* background-color: #112a52 !important; */
+    /* color: white !important; */
+    outline: none;
+    border: 0px;
+}
